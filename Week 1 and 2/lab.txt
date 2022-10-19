@@ -1,0 +1,14 @@
+A is server 
+B is client 
+
+TCP Connection
+
+D is request
+F is request 
+E and G are responses
+D is URL and a get method 
+E is status code which delivers html file 
+F is get method to open the image URL 
+G is status code delivering the image  
+D,E,F,G will still happen 
+It will show error at G (request)
