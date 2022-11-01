@@ -1,0 +1,39 @@
+
+body{background-color: antiquewhite;}
+
+nav{
+    border: burlywood solid 4px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media (min-width:600px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 20px;
+        
+    }
+    nav{
+        grid-column: 1/2;
+        grid-row: 1/2;   
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+}
+
+
+/* @media (min-width: 900px){
+    body{
+        background-color: red;
+    }
+}
+@media (min-width: 1200px){
+    body {
+        background-color: green;
+    }
+} */
