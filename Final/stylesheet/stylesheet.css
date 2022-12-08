@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    background-color: #9CCFD8;
+    height: 100%;
+    position: relative;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 200px;
+    grid-template-rows: 6fr;
+}
+section{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/2;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    font-family: 'RocknRoll One', sans-serif;
+    font-family: 'Send Flowers', cursive;
+}
+header h1, footer{
+    background-color: #31748F;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+aside{
+  background-color: #E0DEF4;  
+  grid-row: 1;
+  grid-column: 2/3;
+  text-align: center;
+}
+img{
+    opacity: 50%;
+    width: 100px;
+    height: 100px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.Album1,.Album2,.Album3,.Album4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width:640px) {
+    section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    main{
+        height: 400px;
+    }
+    footer{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+}
