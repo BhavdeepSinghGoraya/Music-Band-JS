@@ -55,6 +55,9 @@ ul{
     align-items: center;
     justify-content: center;
 }
+.full-opacity{
+    opacity: 1;
+}
 @media screen and (min-width:640px) {
     section{
         display: grid;
