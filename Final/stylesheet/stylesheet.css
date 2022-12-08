@@ -1,7 +1,14 @@
 body{
     font-family: 'RocknRoll One', sans-serif;
+    background-color: #9CCFD8;
 }
 span{
     font-family: 'RocknRoll One', sans-serif;
 font-family: 'Send Flowers', cursive;
+}
+header h1, footer{
+    background-color: #31748F;
+}
+aside{
+  background-color: #E0DEF4;  
 }
