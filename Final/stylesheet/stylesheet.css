@@ -38,6 +38,7 @@ aside{
   background-color: #E0DEF4;  
   grid-row: 1;
   grid-column: 2/3;
+  text-align: center;
 }
 img{
     opacity: 50%;
