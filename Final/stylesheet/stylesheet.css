@@ -12,3 +12,6 @@ header h1, footer{
 aside{
   background-color: #E0DEF4;  
 }
+img{
+    opacity: 50%;
+}
